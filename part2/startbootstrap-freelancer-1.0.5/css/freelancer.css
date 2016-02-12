@@ -119,6 +119,13 @@ header .intro-text .skills {
         font-size: 4.75em;
     }
 
+	header .img-responsive{
+		height: auto; 
+		width: auto; 
+		max-width: 350px; 
+		max-height: 350px;
+	}
+
     header .intro-text .skills {
         font-size: 1.75em;
     }
@@ -193,6 +200,41 @@ section.success a.active {
     outline: 0;
     color: #2c3e50;
 }
+
+
+
+
+
+
+/*sidebar*/
+@media(min-width:768px) {
+    .navbar-fixed-right {
+        padding: 250px 0 50px 100px;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-right .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-right.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-right.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
 
 @media(max-width:767px) {
     section {
@@ -458,3 +500,6 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
+
