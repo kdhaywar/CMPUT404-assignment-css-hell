@@ -224,6 +224,7 @@ section.success a.active {
 }
 
 #projects .projects-item .projects-link .caption {
+	border-radius: 25px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -264,7 +265,7 @@ section.success a.active {
 
 @media(min-width:767px) {
     #projects .projects-item {
-        margin: 0 0 30px;
+        margin: 50px 0 50px 0;
     }
 }
 

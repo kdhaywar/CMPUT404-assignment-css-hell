@@ -1,0 +1,80 @@
+nav {
+	background: radial-gradient(#3385ff, #0052cc, #003380);
+	padding-bottom: 8em;
+	
+}
+
+
+#bs-example-navbar-collapse-1 ul {
+
+	margin-top: 5em;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+
+}
+#bs-example-navbar-collapse-1 ul li { display: inline; }
+#bs-example-navbar-collapse-1 ul li a
+{
+	text-decoration: none;
+	padding: 1em 1em;
+	color: black;
+	background-image: linear-gradient(#ffd11a, #ffc61a, #ff8c1a);
+	position: relative;
+	top: 7em;
+}
+
+
+
+img.img-responsive {
+	float:left;
+} 
+
+body {
+   background-image:url(img/kitten.jpg);
+   text-shadow: 2px 2px #ffffff;
+}​
+
+ul.nav {
+
+	margin-left: 3em;
+}
+
+.sidebar-nav-fixed.pull-right.affix ul {
+	background-color: #ffd11a;
+    float: left;
+
+	position: relative;
+	bottom: 7.5em;
+	padding-bottom: 4.5em;
+
+
+
+
+}
+li.nav-header {
+	margin-left:3em;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+a.navbar-brand {
+	visibility: hidden;
+}
+button {
+	visibility: hidden;
+}
+div.intro-text {
+	position:relative;
+	bottom: 12em;
+}
+span.name {
+	text-align: center;
+	font-size: 350%;
+	color: yellow;
+}
+
+img {
+	width: 350px;
+	height: auto;
+}
